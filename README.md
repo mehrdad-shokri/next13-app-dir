@@ -113,9 +113,9 @@ to populate some data.
 And you're done!
 
 ## Known Limitation  
-- Currently, returning an Async component inside a server component causes ``Typescript`` errors which can be worked around with with ``fn as (arg: T) => R`` but this is a workaround and we'll have official support in the future 
-- Pages are [wrapped](https://github.com/vercel/next.js/discussions/41745#discussioncomment-3964086) inside another ``div`` in the layout's ``children`` place. an that causes styling problems
-- Async ``head.tsx`` return without the desired ``title`` 
+- Currently, returning an Async component inside a server component causes ``Typescript`` errors which can be worked around with with ``fn as (arg: T) => R`` but this is a workaround and we'll have official support in the future.
+- Pages are [wrapped](https://github.com/vercel/next.js/discussions/41745#discussioncomment-3964086) inside another ``div`` in the layout's ``children`` place. an that causes styling problems.
+- Async ``head.tsx`` return without the desired ``title``.
 
 ## Learn More
 Watch me on [YouTube](https://youtube) for a complete walkthrough of the new routing system and file conventions.  
