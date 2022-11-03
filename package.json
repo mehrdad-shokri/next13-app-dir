@@ -1,5 +1,9 @@
 {
   "name": "nextjs-server-components",
+  "author": {
+    "email": "code.poet95@gmail.com",
+    "name": "Mehrdad Shokri"
+  },
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,14 +13,24 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.0.0",
+    "date-fns": "^2.29.3",
+    "js-cookie": "^3.0.1",
+    "lodash.debounce": "^4.0.8",
+    "marked": "^4.1.1",
+    "next": "13.0.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "sanitize-html": "^2.7.3"
   },
   "devDependencies": {
+    "@types/date-fns": "^2.6.0",
+    "@types/js-cookie": "^3.0.2",
+    "@types/lodash.debounce": "^4.0.7",
+    "@types/marked": "^4.0.7",
     "@types/node": "18.11.8",
     "@types/react": "18.0.24",
     "@types/react-dom": "18.0.8",
+    "@types/sanitize-html": "^2.6.2",
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.0",
     "typescript": "4.8.4"

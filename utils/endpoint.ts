@@ -1,0 +1,1 @@
+export default process.env.NODE_ENV === 'production' ? 'https://mynotesapp.com' : 'http://localhost:4000'
