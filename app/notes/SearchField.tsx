@@ -14,9 +14,6 @@ export default function SearchField() {
     const searchParams = useSearchParams()
     const pathName = usePathname()
     const router = useRouter()
-    useEffect(() => {
-
-    }, [text])
     const searchNotes = useMemo(() => debounce((newText: string) => {
         startSearching(() => {
             const expireDate = new Date()
